@@ -1,0 +1,25 @@
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+aiofiles>=23.2.1
+
+# XTF parsing
+pyxtf>=1.4.0
+
+# Numerics & image processing  (Python 3.14 / ARM Mac wheel-compatible)
+numpy>=2.0
+opencv-python-headless>=4.8
+scipy>=1.16           # 1.16+ ships wheels for Python 3.14
+Pillow>=11.0          # Python 3.14 requires Pillow>=11
+
+# AI inference
+ultralytics>=8.2
+
+# Geospatial
+geopy>=2.4
+
+# Report generation
+pandas>=2.0
+
+# Utilities
+python-dotenv>=1.0
